@@ -1,0 +1,47 @@
+body{
+    border-color: 3px solid black;
+    text-align: center;
+    font-size: 50px;
+    background-color: skyblue;
+    justify-content: center;
+}
+.button{
+    transition-duration: 0.4s;
+    width: 73px;
+    margin-top: 0px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    border: 3px solid rgb(153, 147, 234);
+    cursor: pointer;
+    border-radius: 30%;
+    background-color: grey;
+    font-size: 20px;
+    font-weight: 200;
+}
+.button:hover{
+    background-color:rgb(50, 234, 167) ;
+    color: blueviolet;
+    font-size: 25px;
+}
+div input{
+    padding: 10px 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    pointer-events: none;   
+}
+.row input{
+    background-color: rgb(206, 206, 243);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.row1{
+    margin-left: 30%;
+    justify-content: center;
+    max-width: 500px;
+    max-height: 900px;
+    box-shadow: 4px 4px 30px black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
